@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>StAPP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!--<h1><a href="#hero">Regna</a></h1>-->
+      </div>
+
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1><font color="#027fbd">St</font>udent <font color="#027fbd">A</font>ssistant A<font color="#027fbd">pp</font></h1>
+      <h2><i>A PA for every undergraduate</i></h2>
+      <a href="./pages/googleLogin.html" class="btn-get-started">Get Started</a>
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h2 class="title">What is StAPP?</h2>
+            <p>
+              Student Assistant App (StAPP) facilitates undergraduates to keep track of everything related to their degree program. From the time of waking up in the morning, until the dawn of the next day - a student can record all his academic activities from attending a lecture to referring the subject matter he was taught. Hence, the student can get an idea about where he stands at any given time.
+            </p>
+
+            <div>
+              <a href="https://play.google.com/store/apps/details?id=hashan.haze.stapp&hl=en"><img src="./img/play_store.png" width="300"></a>
+              <p class="description">Are you an <b>undergraduate</b>? Haven't you still got StAPP on your smartphone?<br>Hurry up and download your <b>study stimulator</b> now!<b> Your PA is waiting to serve you.</b></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services">
+      <div class="container wow fadeIn">
+        <div class="section-header">
+          <h3 class="section-title">Features</h3><br><br>
+        </div>
+
+        <div class="footer">
+        
+              <h4 class="title"><a href="">Attendance</a></h4>
+              <p style="font-size: medium;">Daily attendance for lectures can be recorded including absented sessions, cancellations, holidays, vacations and unpredicted close-downs. Hence, the student can know the percentage of attendance at any given time.</p>
+          
+        </div>
+<br>
+        <div  class="footer">
+        
+              <h4 class="title"><a href="">Time Table</a></h4>
+              <p style="font-size: medium;">Once the course units relevant for the semester is fed to StAPP at the beginning along with the lecture schedule, StAPP creates the time-table for the user. Hence, facilitating the user to record his daily activities.</p>
+           
+        </div>  
+<br>
+        <div  class="footer">
+         
+              <h4 class="title"><a href="">Course Content</a></h4>
+              <p style="font-size: medium;">Students can easily record daily work (i.e - learned lessons, referred lessons, completed tutorials & tried past papers) in the user-friendly framework provided by StAPP. Hence, students need not remember their daily activities as StAPP provides a clear overview of it at any given time.</p>
+           
+        </div>
+<br>
+        <div  class="footer">
+          
+              <h4 class="title"><a href="">GPA</a></h4>
+              <p style="font-size: medium;">StAPP at the end of each semester can be fed with grades obtained for each course unit - hence, providing the student with a source to know his updated GPA by the end of each semester and also at any given time.</p>
+           
+        </div>
+        
+      </div>
+    </section><!-- #services -->
+
+  </main>
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBqNjI_-wd320pNf7TdMgc21a72eKmcBN0",
+    authDomain: "stapp-7c06c.firebaseapp.com",
+    databaseURL: "https://stapp-7c06c.firebaseio.com",
+    projectId: "stapp-7c06c",
+    storageBucket: "stapp-7c06c.appspot.com",
+    messagingSenderId: "383577609898",
+    appId: "1:383577609898:web:e877098274f65b6ef5e2d3",
+    measurementId: "G-FXDBRJPY8R"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  <!--==========================
+    Footer
+  ============================-->
+  
+   <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>#</span>StAPP</h2>
+                </div>
+                <div class="footer-icons">
+                  <form method="POST"
+                  action="https://api.slapform.com/ashennilura@gmail.com">
+                 <p> Email<input type="email" name="email" id="email"><br></p>
+                 <p>comment<textarea type="text" name="message" style="height:40px"></textarea></p><br>
+                 <input type="submit" id="submit">
+                </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <div class="footer-contacts"> 
+                <p><span>Tel:</span> +123 456 789</p>
+                  <p><span>Email:</span> ashennilura@gmail.com</p>
+                  <p><span>Working Hours:</span> 9am-5pm</p>
+                  <p> &copy;Copyright <strong>StAPP</strong>. All Rights Reserved<br>  &nbsp;Designed by Team 404</p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Google Map</h4>
+                <div class="flicker-img">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.410429158612!2d80.57197831407332!3d5.93803009569851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae1391ba13d99a9%3A0x22dfe129ca09232!2sRuhuna%20Campus!5e0!3m2!1sen!2slk!4v1589540025257!5m2!1sen!2slk" width="260" height="180" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" align="Right"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <iframe height="430" width="350" src="https://bot.dialogflow.com/43e6c9c6-ed7f-4bba-8617-001b17fa03ca"></iframe>
+</body>
+</html>
