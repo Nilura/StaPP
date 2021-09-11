@@ -1,0 +1,56 @@
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+    
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 200px;  
+        color:white;   
+        padding: 10px;   
+        margin: 5px 0px;   
+        border: none;   
+        cursor: pointer; 
+          
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=email], input[type=password] {   
+        width: 200px;   
+        margin: 5px 5px;  
+        padding: 8px 10px;   
+      display: block;
+        border: 2px solid green;   
+        box-sizing: border-box;  
+     
+      
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: 220px;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 10px;    
+    } 
+    #email_field{
+
+     margin: auto;
+    }
+  
+    #googlebtn{   
+      background-color: 	#0080ff;   
+      width: 200px;  
+       color: orange;   
+       padding: 10px;   
+       margin: 0px 0px;   
+       border: none;   
+       cursor: pointer; 
+         
+        }   
+     

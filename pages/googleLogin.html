@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Google Authentication</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body background="img.jpg">
+
+ 
+     <h1 align="center">Login Form</h1>
+     <div class="container ">   
+    
+     <input type="email" placeholder="Email..." id="email_field" /><br>
+     <input type="password" placeholder="Password..." id="email_field" /><br>
+
+     </div>
+    
+    <center>
+     <button onclick="signUp()" id="signUp">Sign Up</button><br>
+     <button onclick="login()" width="150">Login</button>
+    
+     <br>
+
+     <button type="button" id="googlebtn" onclick="GoogleLogin();"><img src="btn.png" width="160"></button>
+    
+    
+    </center>
+    
+   <!--
+  <button  onclick="location.href='googleLogin/googleLogin.html';">google sign in</button>
+  -->
+
+ <script src="google.js" type="text/javascript"></script>
+ <script src="index.js" type="text/javascript"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-auth.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBqNjI_-wd320pNf7TdMgc21a72eKmcBN0",
+    authDomain: "stapp-7c06c.firebaseapp.com",
+    databaseURL: "https://stapp-7c06c.firebaseio.com",
+    projectId: "stapp-7c06c",
+    storageBucket: "stapp-7c06c.appspot.com",
+    messagingSenderId: "383577609898",
+    appId: "1:383577609898:web:e877098274f65b6ef5e2d3",
+    measurementId: "G-FXDBRJPY8R"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+ 
+</script>
+</script>
+
+</body>
+</html>
